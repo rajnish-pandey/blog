@@ -74,6 +74,10 @@ p, a {
     padding-top: 50px;
     text-align: center;
   }
+  
+  .home-h1 {
+    font-size: 1rem;
+  }
 
   .home-image {
     float: none;
