@@ -10,20 +10,24 @@ p, a {
   background-color:black;
 }
 
+.col {
+  font-size: 3.5rem;
+  text-align: center;
+}
 .home-image {
-  float: left;
-  margin: 15px;
   height: 415px;
   width: 280px;
   border-radius: 5%
 }
 
 .home-h1 {
-  font-size: 6rem;
+  padding-top: 1.5em;
+  font-size: 3.5rem;
 }
+
 .home {
-  padding: 90px 30px 90px 40px;
-  text-align: center;
+  padding: 90px 10px;
+  font-size: 3.5rem;
   color: #fff;
   background-color: black;
   line-height: 1.5;
@@ -68,30 +72,12 @@ p, a {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-
-  .home {
-    padding-top: 50px;
-    text-align: center;
-  }
-  
-  .home-h1 {
-    font-size: 1rem;
-  }
-
+@media all and (max-width: 650px) {
   .home-image {
-    float: none;
-    height: 296px;
-    width: 200px;
+    width: 180px;
+    height: 266px;
   }
-
-
-  .education-images {
-    height: 231px;
-    width: 450px;
-  }
-
-  .contact-text {
-    font-size: 1.5rem;
+  .home-h1 {
+    font-size: 2.5rem;
   }
 }
