@@ -20,6 +20,7 @@ p, a {
 .col {
   font-size: 3.5rem;
   text-align: center;
+  padding-top: 60px;
 }
 .home-image {
   height: 415px;
@@ -98,15 +99,12 @@ p, a {
   .cs_main h1,h3 {
     margin-bottom: 20px;
     font-size: 1.5rem;
-    text-decoration-style:wavy;
-    text-decoration: underline;
   }
 }
 
 .intro {
   padding: 80px 20px;
   text-align: center;
-  text-decoration: underline;
   text-transform: capitalize;
 }
 
@@ -134,7 +132,7 @@ p, a {
 
 .cs_main h1,h3 {
   margin-bottom: 20px;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration-style:wavy;
   text-decoration: underline;
 }
