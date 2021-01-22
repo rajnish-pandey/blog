@@ -94,6 +94,13 @@ p, a {
     width: 300px;
     height: 121px;
   }
+
+  .cs_main h1,h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-decoration-style:wavy;
+    text-decoration: underline;
+  }
 }
 
 .intro {
@@ -127,11 +134,21 @@ p, a {
 
 .cs_main h1,h3 {
   margin-bottom: 20px;
+  font-size: 3rem;
   text-decoration-style:wavy;
   text-decoration: underline;
 }
 
 .cs_main p {
+  font-size: 25px;
   margin-bottom: 15px;
   margin-top: 15px;
+}
+
+.cs_main img {
+  display: block;
+  margin: 30px auto;
+  height: 280px;
+  width: 390px;
+  position: relative;
 }
