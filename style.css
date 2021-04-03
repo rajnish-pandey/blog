@@ -1,4 +1,4 @@
-h1, h2, h3, h4 {
+h1, h2, h3, h4,h5 {
   font-family: 'Potta One', cursive;
 }
 
@@ -28,14 +28,14 @@ p, a {
   border-radius: 5%
 }
 
-.home-h1 {
+.home-h5 {
   padding-top: 1.5em;
   font-size: 3.5rem;
 }
 
 .home {
-  padding: 95px 15px;
-  font-size: 3.5rem;
+  padding: 50px 15px;
+  font-size: 1.5rem;
   color: #fff;
   background-color: black;
   line-height: 1.5;
